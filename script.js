@@ -45,6 +45,18 @@ console.log(stack.pop()); // 30
 console.log(stack.peek()); // 20
 
 
+/// op
+
+// Enqueue 1
+// Enqueue 2
+// Enqueue 3
+
+// Queue:
+// 1 → 2 → 3
+
+// Dequeue → 1 removed
+
+
 /// Queue (FIFO – First In First Out)
 
 // First person enters
@@ -91,6 +103,42 @@ queue.print(); // [1,2,3]
 
 console.log(queue.dequeue()); // 1
 console.log(queue.front());   // 2
+
+
+/// op 
+
+// Task Queue
+// Task1
+// Task2
+// Task3
+
+// Execution order:
+// Task1 → Task2 → Task3
+
+
+/// expected interview topic - Reverse a String Using Stack
+
+
+function reverseString(str) {
+  let stack = [];
+  
+  for (let char of str) {
+    stack.push(char);
+  }
+
+  let reversed = "";
+
+  while (stack.length) {
+    reversed += stack.pop();
+  }
+
+  return reversed;
+}
+
+console.log(reverseString("nawin"));
+
+
+/// op - niwan
 
 
 
