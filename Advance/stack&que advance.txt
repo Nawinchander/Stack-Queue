@@ -1,0 +1,5 @@
+| Problem                | Concept         |
+| ---------------------- | --------------- |
+| Valid Parentheses      | Stack           |
+| Next Greater Element   | Monotonic Stack |
+| Sliding Window Maximum | Deque / Queue   |
